@@ -1,0 +1,19 @@
+[ PATRICIO ]                        [ JOSUÉ ADONAI ]
+    (Líder Software)                      (Líder Hardware)
+           |                                     |
++----------V----------+                +---------V----------+
+|  Desarrollo Python  |                | Diseño de Circuito |
+|  (Lógica y Filtros) |                | (Esquema Eléctrico)|
++----------+----------+                +---------+----------+
+           |                                     |
++----------V----------+                +---------V----------+
+| Gestión de Datos    |                | Ensamblaje Físico  |
+| (Parsing de Serial) |                | (Soldadura/Cables) |
++----------+----------+                +---------+----------+
+           |                                     |
+           +-----------------+-------------------+
+                             |
+                   [ PUNTO DE INTEGRACIÓN ]
+                   - Calibración del Sistema
+                   - Pruebas de Precisión
+                   - Documentación Técnica
