@@ -1,0 +1,18 @@
+[ ENERGÍA ]
+           |
+      ( Cable USB )
+           |
+    +------V-------+          +-----------------------+
+    |              |   I2C    |  Sensor Láser ToF     |
+    | Microcontrol | <------> |       VL53L0X         |
+    |  (Arduino/   |          | (Emisor/Receptor IR)  |
+    |   ESP32)     |          +-----------------------+
+    |              |
+    +------T-------+
+           |
+      ( Puerto Serial )
+           |
+    +------V-------+
+    |  PC / Laptop | <--- Interfaz en Python
+    | (Visualización)|
+    +--------------+
